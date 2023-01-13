@@ -1,0 +1,85 @@
+body {
+    padding: 1em;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+}
+h1 {
+    font-size: 3rem;
+    color: tomato;
+    margin-bottom: 0.2em;
+}
+button {
+    display: inline-block;
+    padding: 1em 2.5em;
+    color: black;
+    font-weight: 900;
+    font-size: 0.8em;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 200ms;
+}
+button:hover,
+button:focus {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin: 0.5em 0 0.2em;
+    color: blueviolet;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+
+}
+
+.snake {
+    background-color: aquamarine;
+}
+.apple {
+    background-color: brown;
+}
+
+/* ORIGINAL CODE
+
+html, body {
+    margin: 10;
+    padding: 10;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: blue;
+}
+FIN ORIGINAL CODE */
